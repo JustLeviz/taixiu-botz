@@ -1,6 +1,6 @@
 import Database from "better-sqlite3";
 
-const dbPath = process.env.DB_PATH || "./data/bot.db";
+const dbPath = process.env.DB_PATH || "./bot.db";
 export const db = new Database(dbPath);
 db.pragma("journal_mode = WAL");
 
