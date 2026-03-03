@@ -1,0 +1,17 @@
+{
+  "name": "taixiu-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.6.0",
+    "discord.js": "^14.16.3",
+    "express": "^4.19.2"
+  }
+}
